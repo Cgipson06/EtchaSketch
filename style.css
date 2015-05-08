@@ -10,6 +10,7 @@ h2 {
 body {
 	background-color:#F5F5DC;
 }
+
 #container {
 	background-color:black;
 	width:500px;
@@ -28,12 +29,9 @@ body {
 	width:31.25px;
 	height:31.25px;
 	float:left;
-	
 }
 
 #button {
 	display:block;
 	margin:0 auto;
-	
-
 }
