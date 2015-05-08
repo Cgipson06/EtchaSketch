@@ -16,9 +16,9 @@ $(document).ready( function () {
 			while (count1<numOfSquares) {
 				$('#row'+count).append ('<div class = "screen">');
 				count1+=1;
-			};
-		};
-	};
+			}
+		}
+	}
 	display();
 	$(document).on('click',':button', function screenReset() {
 		numOfSquares= prompt("Please input the size of the new screen. 1 - 128","16");
@@ -38,7 +38,7 @@ $(document).ready( function () {
 		$('.screen').hover(function () {
 			$(this).css('background-color', "#000");
 		});
-	};
+	}
 	shader();
 	$('body').append('<footer><p><small>CGipson 2015</small></p></footer>');
 });
